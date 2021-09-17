@@ -32,11 +32,13 @@ int id, String nome, String cpf, String endereco, String email, String telefone
 - Crie os métodos Getter e Setter para todos os atributos;
 - Crie um método construtor com todos os atributos menos o id. id deve ser gerado automaticamente através de incremento;
 - Sobrescreva o método toString para a classe Cliente;
+
 No entanto para que você consiga criar um objeto do tipo Cliente, é necessário que:
 ● nome tenham entre 3 e 50 caracteres;
 ● cpf tenha exatamente 11 caracteres;
 ● email tenha um @;
 ● e telefone tenha extamente 11 digitos (caracteres)
+
 Para fazer a validação crie os seguintes métodos na classe Cliente
 ● boolean nomeValido(String nome)
 ● boolean cpf Valido(String cpf )

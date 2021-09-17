@@ -24,18 +24,16 @@ public class Retangulo {
         this.perimetro = perimetro;
     }
 
-    public double calculaArea(double ladoA, double ladoB) {
+    public void calculaArea(double ladoA, double ladoB) {
         double area = ladoA * ladoB;
         System.out.println("Area Total= "+area);
         setArea(area);
-        return getArea();
     }
 
-    public double calculaPerimetro(double ladoA, double ladoB) {
+    public void calculaPerimetro(double ladoA, double ladoB) {
         double perimetro = 2 * (ladoA + ladoB);
         System.out.println("Perimetro = "+perimetro);
         setPerimetro(perimetro);
-        return getPerimetro();
     }
 
 

@@ -8,8 +8,6 @@ public class Main {
         double areaLajota = 8;
         double comprimentoLajota = 8;
 
-
-
         Retangulo retangulo = new Retangulo();
 
         retangulo.calculaArea(ladoA, ladoB);
