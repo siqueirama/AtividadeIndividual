@@ -1,0 +1,46 @@
+Exercício 02
+Crie uma classe ManipulaStrings que tenha os seguintes métodos:
+inverteString(String nome) - que permite ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando
+somente letras maiúsculas. Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
+palíndromo(String nome) - Um palíndromo é uma sequência de caracteres cuja leitura é idêntica se feita da direita para esquerda ou vice−versa.
+Por exemplo: OSSO e OVO são palíndromos.
+Em textos mais complexos os espaços e pontuação são ignorados. A frase SUBI NO ONIBUS é o exemplo de uma frase palíndroma onde os espaços foram ignorados.
+Faça um programa que leia uma seqüência de caracteres, mostre e diga se é um palíndromo ou não
+
+Exercício 03
+Criar uma Classe Retangulo que deve ter os seguintes métodos:
+● Método calculaArea(double ladoA, double ladoB). Esse método calcula a área.
+● Método calculaPerimetro(double ladoA, double ladoB): Esse método calcula o perímetro do retângulo
+● Método quantidadePiso(double areaLajota, double areaTotal): Esse método retorna a quantidade de lajotas necessárias para preencher a área do retângulo.
+● Método quatidadeRodapé(double comprimentoLajota , double perimetro): esse método retorna a quantidade de lajotas necessárias para preencher o rodapé.
+
+Exercício 04
+Crie uma classe ManipulaArquivos
+Esta classe deve fazer a leitura de um arquivo txt com nomes de pessoas, como por exemplo:
+Thiago;Maria;Alexandre;Normandes;João
+
+Estes nomes devem ser armazenados em uma lista do tipo String; Após isto, ordene a lista e salve novamente em seu computador;
+Link do exemplo de manipulação de arquivos do prof Kenyo https://github.com/kenyofaria/bootcamp-meli-w3/blob/master/spring-demo-w3/src/ma in/java/com/dh/meli/w3/oo/revisao/arquivos/ArquivoUtil.java
+
+
+
+Exercício 05
+Com a finalidade de trabalhar com estrutura de dados e com algoritmos, propõe-se o seguinte exercício:
+Cenário: Você precisa fazer uma aplicação que ofereça a funcionalidade de cadastrar clientes, obedecendo alguns requisitos para os valores dos atributos.
+A sua aplicação deve ter uma classe Cliente com os atributos:
+int id, String nome, String cpf, String endereco, String email, String telefone
+- Crie os métodos Getter e Setter para todos os atributos;
+- Crie um método construtor com todos os atributos menos o id. id deve ser gerado automaticamente através de incremento;
+- Sobrescreva o método toString para a classe Cliente;
+No entanto para que você consiga criar um objeto do tipo Cliente, é necessário que:
+● nome tenham entre 3 e 50 caracteres;
+● cpf tenha exatamente 11 caracteres;
+● email tenha um @;
+● e telefone tenha extamente 11 digitos (caracteres)
+Para fazer a validação crie os seguintes métodos na classe Cliente
+● boolean nomeValido(String nome)
+● boolean cpf Valido(String cpf )
+● boolean emailValido(Sring email)
+● boolean telefoneValido(String telefone)
+Na sua classe principal, receba os dados do cliente a partir da console, utilizando para isto a classe Scanner.
+Caso todos os valores informados sejam válidos, apresente o cliente criado na console. Caso contrário apresente a informação: "Cliente não pode ser Cadastrado. Dados inválidos!"
